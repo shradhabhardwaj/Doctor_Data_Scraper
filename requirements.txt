@@ -1,0 +1,13 @@
+# for Module 1:
+
+httpx[http2]
+beautifulsoup4
+lxml
+asyncio
+pandas
+loguru
+tqdm
+
+# for Module 2:
+thefuzz[speedup] # For fuzzy string matching of clinic names
+playwright
