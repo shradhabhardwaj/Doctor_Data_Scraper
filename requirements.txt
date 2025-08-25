@@ -11,3 +11,12 @@ tqdm
 # for Module 2:
 thefuzz[speedup] # For fuzzy string matching of clinic names
 playwright
+selenium 
+webdriver-manager
+pandas 
+openpyxl
+textblob
+nltk
+python - << 'EOF'
+import nltk; nltk.download('vader_lexicon')
+EOF

@@ -50,3 +50,9 @@ USER_AGENTS = [
 
 # IMPORTANT: Populate this list with your own proxies
 PROXY_LIST = []
+
+# Add or update:
+EXPORT_CSV_FILE   = "output/doctors_data.csv"
+EXPORT_EXCEL_FILE = "output/doctors_data.xlsx"
+
+TEST_LIMIT = None

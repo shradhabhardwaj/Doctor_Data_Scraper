@@ -53,7 +53,13 @@ class DataProcessor:
         self.processed_data['reviews_summary'] = reviews.get('reviews_summary')
         
         self.processed_data['recommendation_percent'] = self.raw_data.get('recommendation_percent')
+
+        self.processed_data['contact_number'] = self.raw_data.get('contact_number')
+        self.processed_data['contact_email']  = self.raw_data.get('contact_email')
+
         self.processed_data['source_url'] = self.url
+
+        
         
         return self.processed_data
 
